@@ -6,11 +6,13 @@
 }
 
 .title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
     letter-spacing: 7px;
 }
 
 .subtitle{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: 30px;
 letter-spacing: 5px;
 }
@@ -28,43 +30,43 @@ letter-spacing: 5px;
     
 }
 
+#id{
 
+}
+.Teams{
+    display:flex;
+    flex-direction:row;
+}
 .DC{
-
+    padding-left: 100px;
+    flex-direction:row;
 }
 
-#DC1{
-
+.DC1{ 
 }
 
-#DC2{
-
+.DC2{
 }
 
-#DC3{
-
+.DC3{
 }
 
-#DCP{
-
+.DCP{
 }
 
 .Marvel{
-
+    padding-right:100px;
+    flex-direction:row;
 }
 
-#M1{
-
+.M1{
 }
 
-#M2{
-
+.M2{
 }
 
-#M3{
-
+.M3{
 }
 
-#MP{
-
+.MP{
 }
