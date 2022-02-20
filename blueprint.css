@@ -1,0 +1,73 @@
+.body-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.title{
+    font-size: 50px;
+    letter-spacing: 7px;
+}
+
+.subtitle{
+font-size: 30px;
+letter-spacing: 5px;
+}
+
+.image{
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    background-image: url(https://binghamprospector.org/wp-content/uploads/2021/03/cropmarvel-vs-dc-e1616595848516-689x900.jpg);
+}
+
+#character-image{
+    
+}
+
+#id{
+
+}
+
+.DC{
+
+}
+
+#DC1{
+
+}
+
+#DC2{
+
+}
+
+#DC3{
+
+}
+
+#DCP{
+
+}
+
+.Marvel{
+
+}
+
+#M1{
+
+}
+
+#M2{
+
+}
+
+#M3{
+
+}
+
+#MP{
+
+}
