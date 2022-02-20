@@ -11,10 +11,29 @@
     letter-spacing: 7px;
 }
 
-.subtitle{
+.subtitles{
+    display: flex;
+    flex-direction:row;
+}
+.subtitle1{
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: 30px;
 letter-spacing: 5px;
+color: red;
+}
+
+.subtitle2{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+letter-spacing: 5px;
+color: black ;
+}
+
+.subtitle3{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+letter-spacing: 5px;
+color: blue;
 }
 
 .image{
@@ -26,47 +45,65 @@ letter-spacing: 5px;
     background-image: url(https://binghamprospector.org/wp-content/uploads/2021/03/cropmarvel-vs-dc-e1616595848516-689x900.jpg);
 }
 
-#character-image{
-    
-}
-
-#id{
-
-}
 .Teams{
     display:flex;
     flex-direction:row;
 }
 .DC{
-    padding-left: 100px;
+    padding-right:175px;
     flex-direction:row;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:blue;
 }
 
-.DC1{ 
+#DC1{ 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:blue;
 }
 
-.DC2{
+#DC2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:blue;
 }
 
-.DC3{
+#DC3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:blue;
 }
 
-.DCP{
+#DCP{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:blue;
 }
 
 .Marvel{
-    padding-right:100px;
+    padding-right:206px;
     flex-direction:row;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
 }
 
-.M1{
+#M1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
 }
 
-.M2{
+#M2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
 }
 
-.M3{
+#M3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
 }
 
-.MP{
+#MP{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
 }
+
+.fight {
+    
+}
+

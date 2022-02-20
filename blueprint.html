@@ -7,35 +7,35 @@
     <body>
         <div class="body-content">
             <div class="title">Welcome To This Superhero Showdown Simulator!!</div>
-            <div class="subtitle">Marvel VS. DC</div>
+            <div class="subtitles">
+                <div class="subtitle1">Marvel </div> 
+                <div class="subtitle2">VS.</div> 
+                <div class="subtitle3"> DC</div>
+            </div>
             <div class= "image" id="character-image"> </div>
-            <div class = "button-container" onClick="generateMarvelTeam">
-                <button id = "marvel">Click here to generate your Marvel team!!</button>
-                <button id = "dc">Click here to generate your DC team!!</button>
-                <button id = "finish">Fight!</button>
+            <div class = "button-container">
+                <button id = "marvel" onClick = "generateMarvelTeam">Click here to generate your Marvel team!!</button>
+                <button id = "dc" onClick = "generateMarvelTeam">Click here to generate your DC team!!</button>
+                <button id = "fight" onClick = "fight">Fight!</button>
             </div>
 
 
             <div class="Teams">
                 <div class="Marvel"> Marvel Team
-                    <div class="M1">1. </div>
-                    <div class="M2">2. </div>
-                    <div class="M3">3. </div>
-                    <div class="MP">Team Total Power: </div> 
+                    <div id="M1">1. </div>
+                    <div id="M2">2. </div>
+                    <div id="M3">3. </div>
+                    <div id="MP">Team Total Power: </div> 
                 </div>
             
                 <div class="DC"> DC Team
-                    <div class="DC1">1. </div>
-                    <div class="DC2">2. </div>
-                    <div class="DC3">3. </div>
-                    <div class="DCP">Team Total Power: </div>
+                    <div id="DC1">1. </div>
+                    <div id="DC2">2. </div>
+                    <div id="DC3">3. </div>
+                    <div id="DCP">Team Total Power: </div>
                 </div>
             </div>
         </div>
-
-
-            
-
     </body>
 </html>
 <script src="blueprint.js"></script>
